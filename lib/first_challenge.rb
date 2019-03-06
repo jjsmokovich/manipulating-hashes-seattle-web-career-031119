@@ -13,7 +13,8 @@ def first_challenge
     }
   }
 
-  
+  if attribute == :favorite_icecream_flavors
+    value.each do |flavor|
   
 
   #remember to return your newly altered contacts hash!
